@@ -1,4 +1,7 @@
 import React from 'react'
+import $ from 'jquery';
+
+
 
 const DiariaCompleta = 65.60;
 
@@ -15,16 +18,28 @@ const DiariaCompleta = 65.60;
         }
     }
 
+
+
 class BodyApp extends React.Component{
+
+    constructor(props) {
+        super(props)
+        this._toggleDiv = this._toggleDiv.bind(this)
+      }
+      
+      _toggleDiv() {
+        $(this.refs['toggle-div']).slideToggle()
+      }
+
     render(){
         return(
         <div className="Container_body">
 
                 <div className="container_button">
-                    <button ><i class="fa fa-bars" aria-hidden="true"></i>  </button>
+                    <button ><i class="fa fa-bars" aria-hidden="true" onClick={this._toggleDiv}></i>  </button>
                 </div>
 
-                <div className="Container_content">
+                <div className="Container_content" ref="toggle-div">
                     <p> DIGITE O VALOR TOTAL DAS DIARIAS DA VIAGEM </p>
 
                     <input type="number" placeholder="R$" className="Num1"/> 
