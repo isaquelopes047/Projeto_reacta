@@ -26,7 +26,6 @@ class BodyApp extends React.Component{
         super(props)
         this._toggleDiv = this._toggleDiv.bind(this)
       }
-      
       _toggleDiv() {
         $(this.refs['toggle-div']).slideToggle()
       }
@@ -51,7 +50,6 @@ class BodyApp extends React.Component{
                     </div>
                 </div>
             </div>
-            
         )
     }
 }

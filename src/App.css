@@ -55,7 +55,8 @@ div.container_button button{
 }
 div.container_button i{
   margin-right: 0px;
-    font-size: 25px;
+  margin-top: 5px;
+  font-size: 25px;
 }
 div.container_button button:hover{
   background-color:rgb(82, 149, 212);
