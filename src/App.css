@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+body{
+  background-color: #00475b;
+}
+div.container_header{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+p.title_p{
+  font-family: 'Zen Dots', cursive;
+  font-size: 40px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 30px;
+}
+div.modal-body p{
+  font-family: monospace;
+}
+div.container_header button{
+  width:50px;
+  height:50px;
+  background-color: transparent;
+  border: none;
+}
+div.container_header i{
+  color:#fff;
+  font-size: 20px;
+}
+
+div.container_button{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+}
+div.container_button button{
+  display: block;
+  margin:0px auto;
+  width:60px;
+  height:60px;
+  border:none;
+  border-radius: 50%;
+  outline: 0px;
+  background-color:rgb(13, 126, 231);
+  color:#fff;
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 18px;
+}
+div.container_button i{
+  margin-right: 0px;
+    font-size: 25px;
+}
+div.container_button button:hover{
+  background-color:rgb(82, 149, 212);
+  transition: 0.5;
+  cursor: pointer;
+}
+
+div.Container_body{
+  width:100%;
+  height:auto;
+  margin-top: 30px;
+}
+div.Container_content{
+  width:auto;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.Container_content p{
+  text-align: center;
+  font-family: monospace;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 600;
+}
+div.Container_content input{
+  width:230px;
+  height:40px;
+  border: none;
+  border-radius: 20px;
+  outline: 0px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: monospace;
+  font-size: 19px;
+  color:rgb(4, 92, 0);
+  font-weight: 600;
+}
+div.Container_content button{
+  width:80px;
+  height:40px;
+  margin: 20px auto;
+  border-radius: 20px;
+  border: none;
+  outline: 0px;
+  background-color:rgb(13, 126, 231);
+  color:#fff;
+  font-weight: 600;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  transition: 0.3s;
+}
+div.Container_content button:hover{
+  background-color: rgb(93, 178, 228);
+  transition: 0.3s;
+  width:100px;
+}
+
+div.Container_info{
+  width:500px;
+  height:200px;
+  background-color: #fff;
+  margin:18px 0 30px 0;
+  border-radius: 20px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 19px;
+  font-weight: 600;
+}
+div.containe_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width:100%;
+  height:50px;
+  background-color: rgb(29, 29, 29);
+  position: fixed;
+  bottom:0;
+  left:0;
+}
+div.containe_footer i{
+  color: #fff;
+  font-size: 30px;
+  margin:0 30px 0 30px;
+  cursor: pointer;
+}
+div.containe_footer i:hover:nth-child(1){
+  color:#2867B2;
+}
+div.containe_footer i:hover:nth-child(3){
+  color:#8134af;
+}
+
+
