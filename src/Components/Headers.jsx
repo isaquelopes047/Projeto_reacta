@@ -3,7 +3,6 @@ import React from 'react';
 class Myheader extends React.Component{
     render(){
       return(
-        
         <div className="container_header">
           <p className="title_p">DiariaRapida</p>
 
@@ -32,7 +31,7 @@ class Myheader extends React.Component{
                 </div>
               </div>
             </div>
-        </div>
+          </div>
       )
     }
   }
