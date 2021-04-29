@@ -18,8 +18,6 @@ const DiariaCompleta = 65.60;
         }
     }
 
-
-
 class BodyApp extends React.Component{
 
     constructor(props) {
@@ -35,7 +33,7 @@ class BodyApp extends React.Component{
         <div className="Container_body">
 
                 <div className="container_button">
-                    <button ><i class="fa fa-bars" aria-hidden="true" onClick={this._toggleDiv}></i>  </button>
+                    <button ><i class="fa fa-bars" aria-hidden="true" onClick={this._toggleDiv}></i></button>
                 </div>
 
                 <div className="Container_content" ref="toggle-div">
