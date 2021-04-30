@@ -13,7 +13,7 @@ const DiariaCompleta = 65.60;
             document.querySelector(".info").innerHTML = `ERRO: VOCÊ INSERIU UM VALOR IGUAL A ZERO OU NEGATIVO`
             document.querySelector(".info").style.color = "rgb(161, 20, 20)";
         }else if(result > 0){
-            document.querySelector(".info").innerHTML = `O MOTORISTA TRABALHOU ${result.toFixed(1)} DIAS`;
+            document.querySelector(".info").innerHTML = `FORAM ${result.toFixed(1)} DIAS TRABALHADOS`;
             document.querySelector(".info").style.color = "rgb(15, 128, 11)";
         }
     }
@@ -37,14 +37,16 @@ class BodyApp extends React.Component{
                 </div>
 
                 <div className="Container_content" ref="toggle-div">
-                    <p> DIGITE O VALOR TOTAL DAS DIARIAS DA VIAGEM </p>
+                    <p> DIGITE O VALOR DAS DIARIAS DA VIAGEM </p>
 
                     <input type="number" placeholder="R$" className="Num1"/> 
 
                     <button onClick={diaria}><i class="fa fa-play" aria-hidden="true"></i></button>
 
                     <div className="Container_info">
-                        <span className="info"> </span>
+                        <div className="Container_info_botton">
+                            <span className="info"> </span>
+                        </div>
                     </div>
                 </div>
             </div>

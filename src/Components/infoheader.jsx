@@ -20,7 +20,6 @@ class Infodiaria extends React.Component{
                 <div className="modal_info">
                     <div className="slidto" onClick={close}><i class="bi bi-x-circle-fill"> </i></div>
                 <div className="container_info_diaria">
-
                     <h4>Tabela de Diária </h4>
                     <p> <i class="bi bi-tags-fill"></i> 65,60 - 1 Diária</p>
                     <p> <i class="bi bi-tags-fill"></i> 131,20 - 2 Diárias</p>
