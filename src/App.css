@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+html, body {
+  width: 100%;
+  height:100%;
+}
 body{
-  background-color: #00475b;
+  /*background-color: #00475b;*/
+  background: linear-gradient(-45deg, #ee7752, #448597, #0d4f69, #002530);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 div.Container_indo_header{
   display: flex;
   justify-content: flex-end;
   width: 100%;
   height:50px;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
 div.Container_indo_header button{
   width:50px;
@@ -73,9 +91,10 @@ p.title_p{
   font-family: 'Zen Dots', cursive;
   font-size: 40px;
   font-weight: 800;
-  background: -webkit-linear-gradient(#eee, #333);
+  /*background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
+  color:#fff;
   margin-left: 30px;
 }
 div.modal-body p{
@@ -146,6 +165,7 @@ div.Container_content input{
   width:230px;
   height:40px;
   border: none;
+  border-bottom: 3px rgb(128, 128, 128) solid;
   border-radius: 20px;
   outline: 0px;
   text-align: center;
@@ -179,12 +199,14 @@ div.Container_info{
   width:500px;
   height:150px;
   background-color: #fff;
-  margin:18px 0 30px 0;
+  margin:0 0 30px 0;
   border-radius: 20px;
   text-align: center;
   font-family: monospace;
   font-size: 19px;
   font-weight: 600;
+  border: none;
+  border-bottom: 3px rgb(128, 128, 128) solid;
 }
 div.Container_info_botton{
   width:100%;
