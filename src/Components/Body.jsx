@@ -37,7 +37,7 @@ class BodyApp extends React.Component{
                 </div>
 
                 <div className="Container_content" ref="toggle-div">
-                    <p> DIGITE O VALOR DAS DIARIAS DA VIAGEM </p>
+                    <p> DIGITE O VALOR DAS DIARIAS DA VIAGEM... </p>
 
                     <input type="number" placeholder="R$" className="Num1"/> 
 
