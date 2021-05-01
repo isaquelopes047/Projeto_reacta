@@ -5,7 +5,7 @@ class Banner extends React.Component{
         return(
             <div className="container_banner">
                 <div className="banner"> 
-                    <span> V 1.7.5 </span>
+                    <span> V 1.8.0 </span>
                 </div>
             </div>
         )

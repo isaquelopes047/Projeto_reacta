@@ -260,4 +260,10 @@ div.banner span{
   font-weight: 600;
 }
 
+DIV.alert{
+  display: none;
+}
+DIV.alert i {
+  font-size: 20px;
+}
 
