@@ -27,7 +27,7 @@ div.Container_indo_header{
       background-position: 0% 50%;
   }
 }
-div.Container_indo_header button{
+button.button_info_diarias{
   width:50px;
   height:50px;
   border-radius: 50%;
@@ -267,3 +267,27 @@ DIV.alert i {
   font-size: 20px;
 }
 
+
+div.container_backgrounds{
+  width:100px;
+  height:40px;
+  border-radius: 40px;
+  border: none;
+  background-color: transparent;
+  margin:35px 30px 0 0;
+  outline: 0;
+  cursor: pointer;
+  background-color:rgb(13, 126, 231);
+  display: flex;
+  justify-content: space-between;
+}
+div.container_backgrounds button{
+  background-color: transparent;
+  border:none;
+  margin:0 10px 0 8px;
+  outline: none;
+  cursor: pointer;
+}
+div.container_backgrounds button:hover{
+  background-color: transparent;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-class FooterPage extends React.Component{
+export default class FooterPage extends React.Component{
     render(){
         return(
             <div className="containe_footer">
@@ -11,5 +11,3 @@ class FooterPage extends React.Component{
         )
     }
 }
-
-export default FooterPage;

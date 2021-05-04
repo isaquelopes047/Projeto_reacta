@@ -20,7 +20,7 @@ const DiariaCompleta = 65.60;
         }
     }
 
-class BodyApp extends React.Component{
+    export default class BodyApp extends React.Component{
 
     constructor(props) {
         super(props)
@@ -59,5 +59,3 @@ class BodyApp extends React.Component{
         )
     }
 }
-
-export default BodyApp;
