@@ -1,37 +1,14 @@
 import React from 'react'
-
-
-function open(){
-    document.querySelector(".modal_info");
-    document.querySelector(".modal_info").style.display = "block";
-    document.querySelector(".modal_info").style.width = "1s";
-}
-function close(){
-    document.querySelector(".modal_info");
-    document.querySelector(".modal_info").style.display = "none";
-}
-function background_black(){
-    document.body.style.background="#333";
-}
-function background_gradient(){
-    document.body.style.background=" linear-gradient(-45deg, #ee7752, #448597, #0d4f69, #002530)";
-    document.body.style.backgroundSize=" 400% 400%";
-    document.body.style.animation = "gradient 15s ease infinite;"
-}
+import ButtonBackground from './Button_Background.jsx';
 
 export default class Infodiaria extends React.Component{
     render(){
         return(
-            <div className="Container_indo_header"> 
+            <div className="Container_indo_header">
 
-
-            <div className="container_backgrounds">
-                <button onClick={background_black}><i class="bi bi-brightness-high-fill"></i> </button>
-                <button onClick={background_gradient}><i class="bi bi-brightness-high"></i> </button>
-            </div>
-
-                <button onClick={open} className="button_info_diarias"><i class="bi bi-grid-3x2-gap-fill"></i></button>
-                    
+            <ButtonBackground />
+            
+                <button onClick={open} className="button_info_diarias"><i class="bi bi-grid-3x2-gap-fill"></i></button> 
                 <div className="modal_info">
                     <div className="slidto" onClick={close}><i class="bi bi-x-circle-fill"> </i></div>
                         <div className="container_info_diaria">
@@ -62,3 +39,14 @@ export default class Infodiaria extends React.Component{
         )
     }
 }
+function open(){
+    document.querySelector(".modal_info");
+    document.querySelector(".modal_info").style.display = "block";
+    document.querySelector(".modal_info").style.width = "1s";
+}
+function close(){
+    document.querySelector(".modal_info");
+    document.querySelector(".modal_info").style.display = "none";
+}
+
+
