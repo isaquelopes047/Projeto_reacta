@@ -16,6 +16,11 @@ div.Container_indo_header{
   width: 100%;
   height:50px;
 }
+@media only screen and (max-width: 788px) {
+  div.Container_indo_header {
+  height: 70px;
+}
+}
 @keyframes gradient {
   0% {
       background-position: 0% 50%;
@@ -33,7 +38,7 @@ button.button_info_diarias{
   border-radius: 50%;
   border: none;
   background-color: transparent;
-  margin:30px 30px 0 0;
+  margin:10px 30px 0 0;
   outline: 0;
   cursor: pointer;
   background-color:rgb(13, 126, 231);
@@ -202,7 +207,7 @@ div.Container_content button:hover{
   width:100px;
 }
 div.Container_info{
-  width:500px;
+  width:50vh;
   height:150px;
   background-color: #fff;
   margin:0 0 30px 0;
@@ -277,12 +282,22 @@ div.container_backgrounds{
   border-radius: 40px;
   border: none;
   background-color: transparent;
-  margin:40px 30px 0 0;
+  margin:20px 30px 0 0;
   outline: 0;
   cursor: pointer;
   background-color:rgb(13, 126, 231);
   display: flex;
   justify-content: space-between;
+}
+@media only screen and (max-width: 436px) {
+  div.container_backgrounds{
+      margin:20px 30vh 0 0;
+    }
+}
+@media only screen and (max-width: 360px) {
+  div.container_backgrounds{
+      margin:20px 27vh 0 0;
+    }
 }
 div.container_backgrounds button{
   background-color: transparent;
@@ -343,3 +358,4 @@ div.alert-success i{
     ransform:translatex(0px);
   }
 }
+

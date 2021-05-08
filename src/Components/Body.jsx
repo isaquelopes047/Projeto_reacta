@@ -1,8 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
 
-
-
 const DiariaCompleta = 65.60;
 
     function diaria(){
