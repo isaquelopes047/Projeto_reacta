@@ -10,8 +10,8 @@ export default class Infodiaria extends React.Component{
             
                 <button onClick={open} className="button_info_diarias"><i class="bi bi-grid-3x2-gap-fill"></i></button> 
                 <div className="modal_info">
-                    <div className="slidto" onClick={close}><i class="bi bi-x-circle-fill"> </i></div>
-                        <div className="container_info_diaria">
+                <div className="slidto" onClick={close}><i class="bi bi-x-circle-fill"> </i></div>
+                    <div className="container_info_diaria">
                             <h4>Tabela de Diária </h4>
                             <p> <i class="bi bi-tags-fill"></i> 65,60 - 1 Diária</p>
                             <p> <i class="bi bi-tags-fill"></i> 131,20 - 2 Diárias</p>
@@ -34,18 +34,15 @@ export default class Infodiaria extends React.Component{
                             <p> <i class="bi bi-tags-fill"></i> 1.246,40 - 19 Diárias</p>
                             <p> <i class="bi bi-tags-fill"></i> 1.312,00 - 20 Diárias</p>
                         </div>
-                    </div>
                 </div>
+            </div>
         )
     }
 }
 function open(){
-    document.querySelector(".modal_info");
     document.querySelector(".modal_info").style.display = "block";
-    document.querySelector(".modal_info").style.width = "1s";
 }
 function close(){
-    document.querySelector(".modal_info");
     document.querySelector(".modal_info").style.display = "none";
 }
 

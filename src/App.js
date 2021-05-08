@@ -7,6 +7,7 @@ import Banner from './Components/BannerFooter.jsx';
 import Infodiaria from './Components/infoheader.jsx';
 
 
+
 class App extends Component {
   render(){
     return(

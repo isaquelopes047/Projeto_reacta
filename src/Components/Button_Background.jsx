@@ -5,8 +5,8 @@ export default class ButtonBackground extends React.Component{
         return(
         <div>
             <div className="container_backgrounds">
-                <button onClick={background_black}><i class="bi bi-brightness-high-fill"></i> </button>
-                <button onClick={background_gradient}><i class="bi bi-brightness-high"></i> </button>
+                <button onClick={background_black}><i class="bi bi-brightness-high"></i> </button>
+                <button onClick={background_gradient}><i class="bi bi-brightness-high-fill"></i> </button>
             </div>
 
             <div class="alert-success" role="alert">
@@ -21,6 +21,7 @@ function background_black(){
     document.body.style.backgroundSize=" 400% 400%";
     document.body.style.animation = "gradient 15s ease infinite;"
     
+    //ALERT
     var interval = setInterval(doStuff, 1);
         function doStuff() {
         document.querySelector(".alert-success").style.display = "block";
@@ -37,6 +38,8 @@ function background_gradient(){
     document.body.style.background="linear-gradient(-45deg, #ee7752, #448597, #0d4f69, #002530)";
     document.body.style.backgroundSize=" 400% 400%";
     document.body.style.animation = "gradient 15s ease infinite;"
+
+    //ALERT
     var interval = setInterval(doStuff, 1);
         function doStuff() {
         document.querySelector(".alert-success").style.display = "block";
