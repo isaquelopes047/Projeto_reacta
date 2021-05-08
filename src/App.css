@@ -323,6 +323,7 @@ div.alert-success p{
   text-align: center;
   margin-top: 7px;
   font-style: oblique;
+  color: #333;
 }
 div.alert-success i{
   color: rgb(81, 201, 81);

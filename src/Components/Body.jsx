@@ -20,8 +20,7 @@ const DiariaCompleta = 65.60;
         }
     }
 
-    export default class BodyApp extends React.Component{
-
+export default class BodyApp extends React.Component{
     constructor(props) {
         super(props)
         this._toggleDiv = this._toggleDiv.bind(this)
