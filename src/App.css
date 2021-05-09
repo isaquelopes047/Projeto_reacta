@@ -102,6 +102,11 @@ div.container_header{
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 436px){
+  div.container_header {
+    width: 95%;
+  }
+}
 p.title_p{
   font-family: 'Zen Dots', cursive;
   font-size: 40px;
