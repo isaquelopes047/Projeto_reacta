@@ -347,17 +347,14 @@ div.alert-success i{
   div.alert-success {
     Margin-left: -100px;
     Margin-top: 4%;
-    display: block;
   }
 }
 @media only screen and (max-width: 422px) {
   div.alert-success {
     Margin-left: 50px;
     Margin-top: 4%;
-    display: block;
   }
 }
-
 @keyframes Oopacity{
   0%{
     opacity: 0;
