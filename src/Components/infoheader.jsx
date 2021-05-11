@@ -1,5 +1,6 @@
 import React from 'react'
 import ButtonBackground from './Button_Background.jsx';
+import RefreshButton from './refreshbutton.jsx';
 
 
 export default function Infodiaria(){
@@ -14,6 +15,7 @@ export default function Infodiaria(){
         return(
             <div className="Container_indo_header">
 
+            <RefreshButton />
             <ButtonBackground />
             
             <button onClick={open} className="button_info_diarias"><i class="bi bi-grid-3x2-gap-fill"></i></button> 
