@@ -398,3 +398,8 @@ div.container_button_refresh button:hover{
     transform: rotate(359deg);
   }
 }
+@media only screen and (max-width: 562px) {
+  div.container_button_refresh button{
+      display: none;
+    }
+}

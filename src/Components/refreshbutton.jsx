@@ -1,8 +1,8 @@
-
+import React from 'react';
 
 export default function RefreshButton(){
     function reload(){
-        document.location.reload(true);
+        document.location.reload();
     }
 
     return(
