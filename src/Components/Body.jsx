@@ -11,10 +11,12 @@ const DiariaCompleta = 65.60;
             document.querySelector(".info").innerHTML = `:(`
             document.querySelector(".info").style.color = "rgb(161, 20, 20)";
             document.querySelector(".alert").style.display = "block"
-        }else if(result > 0){
+        }else{
             document.querySelector(".info").innerHTML = `FORAM ${result.toFixed(1)} DIAS TRABALHADOS`;
             document.querySelector(".info").style.color = "rgb(15, 128, 11)";
             document.querySelector(".alert").style.display = "none"
+        }if(result === 1.0){
+            document.querySelector(".info").innerHTML = `FOI ${result.toFixed(1)} UM DIA TRABALHADO`;
         }
     }
 
@@ -36,7 +38,7 @@ export default class BodyApp extends React.Component{
                 </div>
 
                 <div className="Container_content" ref="toggle-div">
-                    <p> DIGITE O VALOR DAS DIARIAS DA VIAGEM... </p>
+                    <p> DIGITE O VALOR DAS DIARIAS DA VIAGEM</p>
 
                     <input type="number" placeholder="R$" className="Num1"/> 
 

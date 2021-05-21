@@ -241,7 +241,12 @@ div.containe_footer{
   bottom:0;
   left:0;
 }
-div.containe_footer i{
+div.containe_footer p{
+  color:#fff;
+  margin-top: 15px;
+  font-size: 15px;
+}
+/*div.containe_footer i{
   color: #fff;
   font-size: 30px;
   margin:0 30px 0 30px;
@@ -252,7 +257,7 @@ div.containe_footer i:hover:nth-child(1){
 }
 div.containe_footer i:hover:nth-child(3){
   color:#8134af;
-}
+}*/
 
 div.container_banner{
   width:100%;
